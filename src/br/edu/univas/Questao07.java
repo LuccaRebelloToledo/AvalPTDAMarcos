@@ -7,7 +7,7 @@ public class Questao07 {
         if(resultadoDeterminante == -1)
             System.out.println("A matriz não é válida!");
         else
-            System.out.println(resultadoDeterminante);
+            System.out.println("A determinante da matriz é: " + resultadoDeterminante);
     }
     public static int calculaDeterminante(int[][] matriz){
         if(matriz.length == 2){
